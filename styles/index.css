@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  min-width: 960px;
+  margin: 0 auto;
+  padding-top: 96px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.title {
+  color: rgba(20, 28, 36, 1);
+
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.description {
+  color: rgba(20, 28, 36, 1);
+
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.formsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  gap: 24px;
+}
+
+.btn-send {
+  width: 328px;
+  height: 56px;
+
+  padding: 16px 32px;
+
+  border-radius: 12px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(25, 117, 255, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-send:hover {
+  background-color: rgba(0, 82, 204, 1);
+}
+
+.btn-resend {
+  width: 328px;
+  height: 56px;
+
+  padding: 16px 32px;
+
+  border: none;
+  background: none;
+  color: rgba(52, 64, 81, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-resend:hover {
+  text-decoration: underline;
+}
+
+.resendText {
+  color: rgba(151, 161, 175, 1);
+}
